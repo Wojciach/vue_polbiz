@@ -62,3 +62,26 @@
     font-variation-settings:
       "wdth" 100;
   }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    @apply bg-violet-100;
+ /* color of the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    @apply bg-violet-300;
+    /* color of the scroll thumb */
+    border-radius: 5px; /* roundness of the thumb */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-violet-800;
+    /* color of the scroll thumb on hover */
+  }
