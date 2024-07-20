@@ -3,6 +3,9 @@
     <NuxtLink
       v-for="page in pagesData" :key="page.name"
       :to="page.link"
+      target="_blank"
+      rel="noopener noreferrer"
+
       class="m-1 h-32 flex flex-col justify-center rounded-xl items-center portfolioLink  bg-violet-100"
     > <MaskedLogo class="maskedLogo" :url="page.imageUrl"/>
   </NuxtLink>

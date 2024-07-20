@@ -11,6 +11,22 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'pl',
       },
+      script: [
+        {
+          src: `https://www.googletagmanager.com/gtag/js?id=G-26TFT0YBV3`,
+          async: true,
+        },
+        {
+          innerHTML: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-26TFT0YBV3');
+          `,
+          type: 'text/javascript',
+        },
+      ],
       title: 'polbiz.net',
       charset: 'utf-8',
       meta: [
