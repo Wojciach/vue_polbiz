@@ -1,5 +1,5 @@
 <template>
-    <div id="menuStripe" class="m-2 relative flex flex-wrap justify-center exo2 text-white">
+    <div id="menuStripe" class="m-2 fixed bottom-0 flex flex-wrap justify-center exo2 text-white">
       <NuxtLink
         v-for="page in pageLinks" :key="page.name"
         :to="page.link"

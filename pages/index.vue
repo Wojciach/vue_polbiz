@@ -5,7 +5,6 @@
       <Logo />
       <Motto />
     </div>
-
   </div>
 </template>
 

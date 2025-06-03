@@ -1,6 +1,6 @@
 <template>
-  <div class=" px-10 md:px-20 xl:px-64">
-    <div class="flex flex-col overflow-y-scroll mt-10 ">
+  <div class="px-10 pb-32 overflow-auto">
+    <div class="flex flex-col mt-10 ">
       <section class="flex flex-col justify-center items-center text-center">
         <h1 class="text-3xl font-bold text-violet-900 mb-4">Witaj w polbiz.net!</h1>
         <p class="text-lg text-gray-800 leading-7 mb-6">

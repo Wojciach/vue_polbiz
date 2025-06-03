@@ -15,6 +15,10 @@ const props = defineProps({
 
 var dynamicStyle4 = `
    mask-image: url(${props.url});
+   skew: 30deg;
+    -webkit-mask-image: url(${props.url});
+    -webkit-mask-size: fit;
+    scale: 0.9;
 `
 
 </script>

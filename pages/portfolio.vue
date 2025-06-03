@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row md:flex-row flex-wrap w-auto mx-0 items-end justify-end text-purple-700 font-bold">
+  <div class="flex flex-row h-fit flex-wrap w-auto mx-0 items-center justify-center text-purple-700 font-bold">
     <NuxtLink
       v-for="page in pagesData" :key="page.name"
       :to="page.link"
@@ -32,9 +32,9 @@ const pagesData = [
     imageUrl: '/img/emiston_logo.png'
   },
   {
-    link: 'https://info.polbiz.net',
-    name: 'Info',
-    imageUrl: '/img/info_logo_cut.png'
+    link: 'https://kkdetailer.com',
+    name: 'KK Detailer',
+    imageUrl: '/img/kk.svg'
   }
 ]
 
@@ -49,7 +49,7 @@ const pagesData = [
 }
 
 .portfolioLink > .maskedLogo {
-  transform: skew(30deg)
+  transform: skew(30deg) 
 }
 
 .portfolioLink:hover {

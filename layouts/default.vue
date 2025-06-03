@@ -1,8 +1,8 @@
 <template>
-  <div class="flex flex-col justify-center items-center overflow-hidden">
+  <div class="fixed flex flex-col justify-center items-center h-full w-full overflow-scroll">
     <!-- <BackgroundVideo /> -->
-    <NuxtPage class="flex flex-col items-end justify-end md:h-48 lg:h-64 xl:h-96 "/>
-    <MenuStripe class="" />
+    <NuxtPage class="relative h-fit justify-center items-center"/>
+    <MenuStripe class="fixed bottom-0" />
   </div>
 </template>
 
